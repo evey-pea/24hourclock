@@ -15,11 +15,15 @@ body {
   width: 450px;
   height: 450px;
   background: rgb(2,0,36);
-background: linear-gradient(0deg, rgba(2,0,36,1) 25%, rgba(255,168,0,1) 44%, rgba(255,252,0,1) 69%);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 25%, rgba(255,168,0,1) 44%, rgba(255,252,0,1) 69%);
   border-radius: 50%;
   border: 2px solid black;
   position: relative;
-  color: grey;
+  color: black;
+}
+
+.light {
+  color: white;
 }
 
 .clock .number {
@@ -90,7 +94,7 @@ background: linear-gradient(0deg, rgba(2,0,36,1) 25%, rgba(255,168,0,1) 44%, rgb
 
 .clock .hand.minute {
   width: 7px;
-  height: 40%;
+  height: 45%;
   background-color: black;
 }
 
